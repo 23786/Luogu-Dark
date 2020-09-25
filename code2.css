@@ -1,0 +1,294 @@
+.lg-article , .lg-summary , .lg-article-sub , .lg-content-table-left , html > body:first-of-type #app > .lfe-body {
+	background: #363636 !important;
+	color: #fff !important;
+}
+
+#app > .lfe-body * {
+	color: #fff !important;
+}
+
+html > body:first-of-type #app > .lfe-body div:first-of-type {
+	background: #353535 !important;
+}
+
+.popup , #app-header .content nav a[href^="/space/show"]+div.center , #app-header .content nav a[href^="/space/show"]+div.center * {
+	background: #424242 !important;
+	color: #fff !important;
+}
+
+.am-panel,.feed-selector>a,.am-nav-tabs li>a,.am-comment-bd,.lg-sub-article,.am-alert,#lg-tag-result,#lg-tag-select {
+	background: #454545 !important;
+	color: #fff !important;
+}
+
+.float-bottom {
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+code {
+	background: #404040 !important;
+	color: #fff !important;
+}
+
+button {
+	background: #404040 !important;
+	color: #fff !important;
+}
+
+.am-comment-hd {
+	background: #404040 !important;
+}
+
+textarea,input {
+	background: #666666 !important;
+	color: #fff !important;
+}
+
+.time, .title, .content, .info-content, .result-count, .number, .expand-tip, .lfe-caption {
+	color: #fff !important;
+}
+
+html > body:first-of-type > #app-header , html > body:first-of-type > #app-header .content > header {
+	background: #212121 !important;
+	color: #fff !important;
+}
+
+#app-header h1:before {
+	content: "";
+	box-shadow: inset -15px 0 30px #212121;
+}
+
+body,html,html>body:first-of-type {
+	background: #303030 !important;
+}
+
+.lg-small,strong {
+	color: rgba(255,255,255,.6);
+}
+
+.highcharts-axis.highcharts-yaxis > text,.highcharts-axis-labels.highcharts-yaxis-labels > text,.highcharts-axis-labels.highcharts-xaxis-labels > text {
+	fill: #ddd !important;
+}
+
+.ace_content {
+	color: #fff;
+	background: #212121;
+}
+
+.ace-clouds .ace_keyword.ace_operator {
+	color: #aaa !important;
+}
+
+.ace-clouds .ace_storage, .ace-clouds .ace_support.ace_class, .ace-clouds .ace_support.ace_function, .ace-clouds .ace_support.ace_other, .ace-clouds .ace_support.ace_type {
+	color: #e778b0 !important;
+}
+
+.ace-clouds .ace_keyword, .ace-clouds .ace_meta, .ace-clouds .ace_support.ace_constant.ace_property-value {
+	color: #40c4ff !important;
+}
+
+.ace-clouds .ace_constant.ace_numeric {
+	color: #5af354 !important;
+}
+
+.ace-clouds .ace_marker-layer .ace_active-line {
+	background: #404040;
+}
+
+.ace_layer.ace_gutter-layer.ace_folding-enabled {
+	background: #303030;
+	color: #fff;
+}
+
+.ace-clouds .ace_gutter-active-line {
+	background-color: #666666;
+}
+
+body:before {
+	content: "";
+	position: fixed;
+	z-index: 999999999999999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.2);
+	pointer-events: none;
+}
+
+.am-progress {
+	background-color: #e9ecef0d;
+}
+
+#mp-toolbar {
+	background: #212121;
+	border: none;
+}
+
+#mp-toolbar *,#mp-editor-area {
+	border: none !important;
+}
+
+.CodeMirror-cursor {
+	border-color: #ccc;
+}
+
+#mp-editor-area * {
+	background: #303030 !important;
+}
+
+.CodeMirror-gutters,#mp-editor-preview-area {
+	border-color: #555;
+}
+
+.cm-s-default .cm-link {
+	color: #B7B8FF;
+}
+
+.cm-s-default .cm-string {
+	color: #ca405b;
+}
+
+pre.CodeMirror-line {
+	color: #fff;
+}
+
+.am-pagination>li>a {
+	background: #424242;
+	border: none;
+}
+
+#app-footer {
+	background: #212121 !important;
+}
+
+ul.am-dropdown-content>li>a {
+	color: #ddd;
+}
+
+.am-dropdown-header {
+	color: #ccc;
+}
+
+textarea, input, .am-dropdown-content {
+	background: #303030 !important;
+	color: #fff !important;
+}
+
+ul.am-dropdown-content .am-divider {
+	background-color: #555555;
+}
+
+.am-modal-dialog {
+	background-color: #424242;
+}
+
+.am-modal-dialog>#lg-alert-message, .am-modal-dialog>#memadmin {
+	color: #fff;
+}
+
+.am-modal-dialog>#lg-alert-title, .am-modal-dialog>#memtitle {
+	color: #fff;
+}
+
+.message-block {
+	color: black !important;
+}
+
+pre {
+	background: transparent;
+	border-color: #555;
+	color: #fff !important;
+}
+
+hr {
+	border-color: #666;
+}
+
+.lg-sidebar-list li[class^="lg-nav"] a span[class^="am-icon"]:after {
+	background: #fff !important;
+	opacity: 0.95;
+}
+
+.lg-index-benben > div.lg-article:nth-of-type(2) {
+	background: #424242 !important;
+	box-shadow: 0 5px 15px rgba(50,50,93,.1),0 5px 8px rgba(0,0,0,.07)!important;
+}
+
+#home-center-nav {
+	background: #303030 !important;
+}
+
+.lg-fg-bluedark {
+	color: #678baf !important;
+}
+
+#app-header * {
+	color: #ddd !important;
+}
+
+#app > .lfe-body > div.popup-button {
+	color: #fff !important;
+}
+
+.lfe-body {
+	color: white;
+	background-color: black;
+}
+/*
+.main-container > .header-layout .background {
+     display: none !important;
+}*/
+.lg-summary-content li {
+	background: transparent !important;
+}
+
+.lg-summary-content .fadeout {
+	background-image: linear-gradient(transparent 0%,rgb(69,69,69) 90%);
+}
+
+.lg-summary-content .comment-show-more {
+	color: #aaa;
+}
+
+.lg-article .pagination-centered:before {
+	background: #303030 !important;
+}
+
+#mp-editor-area div.CodeMirror-selected {
+	background: rgba(255,255,255,0.5) !important;
+}
+
+#mp-editor-area .CodeMirror-line,#mp-editor-area .CodeMirror-line * {
+	background: transparent !important;
+}
+
+.inner-card {
+	background-color: #505050 !important;
+	border: none;
+	color: white !important;
+}
+/*--------------------侧栏颜色*/
+/*#app-sidenav{
+    background: linear-gradient(30deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
+}
+#app-sidenav > a , .popup-button > i{
+    color: #fafafa !important;
+}*/
+
+#app > .lfe-body {
+	background: linear-gradient(30deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
+}
+
+#app > .lfe-body > a , .popup-button > i {
+	color: #fafafa !important;
+}
+
+/*--------------------禁用顶栏标题动画*/
+
+/*下面是禁用顶栏标题动画CSS
+.main-container > header > .header > h1{
+    animation:none !important;
+}
+*/
