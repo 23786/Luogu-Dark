@@ -1,14 +1,49 @@
-.lg-article , .lg-summary , .lg-article-sub , .lg-content-table-left , html > body:first-of-type #app > .lfe-body {
-	background: #363636 !important;
-	color: #fff !important;
+
+@media (prefers-color-scheme: dark) {
+    
+#app {
+    background-color: #202020 !important;
+}
+    
+a {
+    color: rgb(180, 200, 254);
+}
+    
+.solution-article > .operations.float {
+    background-color: #404040 !important;
 }
 
+.card, .lg-article , .lg-summary , .lg-article-sub , .lg-content-table-left {
+	background-color: #363636 !important;
+	color: #fff !important;
+}
+    
+/*适配 Tiny 顶栏*/
+#app > .main-container > .header-layout.tiny {
+    height: 4em !important;
+    background: #404040 !important;
+    color: white !important;
+}
+    
+.user-nav {
+    background-color: transparent !important;
+    color: white !important;
+}
+    
+ .header-link {
+    color: white !important;
+}
+    
+.user-nav > .icon-btn, .user-nav > .icon {
+	color: white !important
+}
+    
+.main-container > .lfe-body {
+    background-color: #303030 !important;
+}
+    
 #app > .lfe-body * {
 	color: #fff !important;
-}
-
-html > body:first-of-type #app > .lfe-body div:first-of-type {
-	background: #353535 !important;
 }
 
 .popup , #app-header .content nav a[href^="/space/show"]+div.center , #app-header .content nav a[href^="/space/show"]+div.center * {
@@ -35,13 +70,21 @@ button {
 	background: #404040 !important;
 	color: #fff !important;
 }
+    
+.right > a {
+    color: white !important;
+}
 
 .am-comment-hd {
 	background: #404040 !important;
 }
+    
+.expand {
+    background: linear-gradient(rgba(255, 255, 255, 0), #404040) !important;
+}
 
 textarea,input {
-	background: #666666 !important;
+	background: #404040 !important;
 	color: #fff !important;
 }
 
@@ -104,6 +147,55 @@ body,html,html>body:first-of-type {
 .ace-clouds .ace_gutter-active-line {
 	background-color: #666666;
 }
+
+.hljs-keyword,.hljs-selector-tag,.hljs-literal,.hljs-selector-id {
+    color: rgb(167, 210, 255) !important;
+}
+
+.hljs-number {
+    color: rgb(208, 190, 105) !important;
+}
+
+.hljs {
+    color: #e0e2e4 !important;
+}
+
+.hljs-attribute {
+    color: #668bb0 !important;
+}
+
+.hljs-code,.hljs-class .hljs-title,.hljs-section {
+    color: white !important;
+}
+
+.hljs-regexp,.hljs-link {
+    color: #d39745 !important;
+}
+
+.hljs-meta {
+    color: rgb(255, 147, 0) !important
+}
+
+.hljs-tag,.hljs-name,.hljs-bullet,.hljs-subst,.hljs-emphasis,.hljs-type,.hljs-built_in,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-addition,.hljs-variable,.hljs-template-tag,.hljs-template-variable {
+    color: rgb(177, 111, 253) !important;
+}
+
+.hljs-string,.hljs-symbol {
+    color: rgb(237, 101, 90) !important;
+}
+
+.hljs-comment,.hljs-quote,.hljs-deletion {
+    color: #818e96 !important;
+}
+
+.hljs-selector-class {
+    color: #a082bd !important;
+}
+
+.hljs-keyword,.hljs-selector-tag,.hljs-literal,.hljs-doctag,.hljs-title,.hljs-section,.hljs-type,.hljs-name,.hljs-strong {
+    font-weight: bold !important;
+}
+
 
 body:before {
 	content: "";
@@ -197,8 +289,8 @@ ul.am-dropdown-content .am-divider {
 }
 
 pre {
-	background: transparent;
-	border-color: #555;
+	background: #404040 !important;
+	border: none !important;
 	color: #fff !important;
 }
 
@@ -236,10 +328,7 @@ hr {
 	color: white;
 	background-color: black;
 }
-/*
-.main-container > .header-layout .background {
-     display: none !important;
-}*/
+    
 .lg-summary-content li {
 	background: transparent !important;
 }
@@ -277,10 +366,6 @@ hr {
     color: #fafafa !important;
 }*/
 
-#app > .lfe-body {
-	background: linear-gradient(30deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
-}
-
 #app > .lfe-body > a , .popup-button > i {
 	color: #fafafa !important;
 }
@@ -292,3 +377,5 @@ hr {
     animation:none !important;
 }
 */
+    
+}
