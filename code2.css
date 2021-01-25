@@ -7,6 +7,10 @@
     a:hover {
         color: rgb(160, 176, 230);
     }
+    
+    .light-black {
+        color: #eee !important;
+    }
 
 	.solution-article > .operations.float {
 		background-color: #404040 !important;
