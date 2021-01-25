@@ -62,6 +62,10 @@
         border: none !important;
        	border-radius: 0 !important;
     }
+    
+    .lfe-form-sz-middle {
+        background-color: #404040 !important;
+    }
 
 	.popup , #app-header .content nav a[href^="/space/show"]+div.center , #app-header .content nav a[href^="/space/show"]+div.center * {
 		background: #424242 !important;
