@@ -63,6 +63,10 @@
 		background: #424242 !important;
 		color: #fff !important;
 	}
+    
+    strong {
+        color: #fff !important;
+    }
 
 	.am-panel,.feed-selector>a,.am-nav-tabs li>a,.am-comment-bd,.lg-sub-article,.am-alert,#lg-tag-result,#lg-tag-select {
 		background: #454545 !important;
@@ -359,16 +363,36 @@
 	.lg-fg-bluelight {
 		color: rgb(84, 183, 217) !important;
 	}
+    
+    .message-block.right > .message:after {
+        border-left-color: #454545 !important;
+    }
+    
+    .message-block.left > .message:after {
+        border-right-color: #454545 !important;
+    }
 
 	.lg-fg-bluedark {
 		color: #678baf !important;
 	}
     
+    .lg-bg-purple{
+        background-color: #8743a4 !important;
+    }
+    
+    .lg-fg-purple{
+        color: #b268d2 !important;
+    }
+    
     .lg-small > strong {
         color: #eee !important;
     }
     
-    .row, .feed, .list > .item, .top-container, .block > .editor, .side, .notice-card, .inner-card {
+    .discuss {
+        background-color: #404040 !important;
+    }
+    
+    .row, .feed, .list > .item, .top-container, .block > .editor, .side, .notice-card, .inner-card, .discuss {
         border: none !important;
     }
     
