@@ -182,7 +182,6 @@ a{
 .am-form-field , .input-group > .input-wrap > input , .input-wrap > input{
     transition: box-shadow .15s ease;
     border:none !important;
-    border-radius: 4px !important;
     box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
     min-height:25px !important;
 }
@@ -350,7 +349,7 @@ button[type='button']{
     padding-bottom:4px;
     transition:all .15s;
 }
-.tag span.lfe-caption, .difficulty span.lfe-caption{
+.tag span.lfe-caption, .difficulty span.lfe-caption, .lfe-caption.tag {
     border-radius:50px !important;
     padding-left:10px;
     padding-right:10px;
@@ -358,7 +357,7 @@ button[type='button']{
     padding-bottom: 1px;
     transition:all .15s;
 }
-.am-badge:hover , .tag span.lfe-caption:hover, .difficulty span.lfe-caption:hover{
+.am-badge:hover , .tag span.lfe-caption:hover, .difficulty span.lfe-caption:hover , .lfe-caption.tag:hover {
     transform: translateY(-1px);
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 }
@@ -1093,11 +1092,11 @@ div > .row-wrap .lfe-caption{
     }*/
 
 .lg-index-content.am-center>div:first-child+div+div>div:first-child>div:first-child /* 隐藏首页的 "本站公告" */
-    {
-        display: none
-    }
+{
+    display: none
+}
 
-    .lg-index-content.am-center>div:first-child+div+div>div:first-child>div:first-child+div+div /* 隐藏首页的"友情链接" */
-    {
-        display: none!important
-    }
+.lg-index-content.am-center>div:first-child+div+div>div:first-child>div:first-child+div+div /* 隐藏首页的"友情链接" */
+{
+    display: none!important
+}
