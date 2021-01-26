@@ -15,6 +15,11 @@
 	.solution-article > .operations.float {
 		background-color: #404040 !important;
 	}
+    
+    .clone-card {
+        background-color: #404040 !important;
+        color: #fff !important;
+    }
 
 	.card, .lg-article , .lg-summary , .lg-article-sub , .lg-content-table-left {
 		background-color: #363636 !important;
@@ -136,7 +141,7 @@
         color: #eee !important;
     }
     
-    .combo-wrapper.combo > .text.lfe-form-sz-small {
+    .combo-wrapper.combo > .text.lfe-form-sz-small, .combo-wrapper > .text.lfe-form-sz-small {
         background-color: #404040 !important;
         color: white !important;
         border: none !important;
