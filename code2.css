@@ -16,6 +16,15 @@
 		background-color: #404040 !important;
 	}
     
+    .problem-order {
+        background-color: #404040 !important;
+        border: none !important;
+    }
+    
+    .refined-input.input-wrap.input-search.frame {
+        background-color: #363636 !important;
+    }
+    
     .clone-card {
         background-color: #404040 !important;
         color: #fff !important;
@@ -50,9 +59,9 @@
 		background-color: #303030 !important;
 	}
 
-	#app > .lfe-body * {
+	/*#app > .lfe-body * {
 		color: #fff !important;
-	}
+	}*/
 
 	.lg-summary-list > li > strong {
 		color: #eee !important;
@@ -80,6 +89,25 @@
     strong {
         color: #fff !important;
     }
+    
+    .dropdown-operations {
+        background-color: #454545 !important;
+        color: white !important;
+        border: none !important;
+    }
+    
+    .dropdown-operations > ul > li:hover {
+        background-color: #505050 !important;
+    }
+    
+    .swal2-popup.swal2-modal.swal2-show {
+        background-color: #404040 !important;
+        border: none !important;
+    }
+    
+    .swal2-title {
+        color: white !important;
+    }
 
 	.am-panel,.feed-selector>a,.am-nav-tabs li>a,.am-comment-bd,.lg-sub-article,.am-alert,#lg-tag-result,#lg-tag-select {
 		background: #454545 !important;
@@ -87,7 +115,7 @@
 	}
 
 	.float-bottom {
-		background-color: #000 !important;
+		background-color: #404040 !important;
 		color: #fff !important;
 	}
 
@@ -139,6 +167,15 @@
     
     .lg-small {
         color: #eee !important;
+    }
+    
+    
+    .lg-article , .lg-summary , .lg-article-sub , .card{
+        box-shadow: 0 5px 15px rgba(120,120,100,.4),0 5px 8px rgba(0,0,0,.07)!important;
+    }
+    
+    .lg-article:hover , .lg-summary:hover , .lg-article-sub:hover , .card:hover {
+        box-shadow: 0 5px 15px rgba(120,120,100,.5),0 5px 8px rgba(0,0,0,.07)!important;
     }
     
     .combo-wrapper.combo > .text.lfe-form-sz-small, .combo-wrapper > .text.lfe-form-sz-small {
@@ -438,9 +475,9 @@
 		color: #ddd !important;
 	}
 
-	#app > .lfe-body > div.popup-button {
+	/*#app > .lfe-body > div.popup-button {
 		color: #fff !important;
-	}
+	}*/
 
 	.lfe-body {
 		color: white;
@@ -479,13 +516,17 @@
 /*#app-sidenav{
     background: linear-gradient(30deg,#7795f8 15%,#6772e5 70%,#555abf 94%) !important;
 }
-#app-sidenav > a , .popup-button > i{
+#app-sidenav > a , */.popup-button > i{
     color: #fafafa !important;
-}*/
+}
 
-	#app > .lfe-body > a , .popup-button > i {
+	/*#app > .lfe-body > a , */.popup-button > i {
 		color: #fafafa !important;
 	}
+    
+    .apps > a {
+        color: white !important;
+    }
 
 /*--------------------禁用顶栏标题动画*/
 
